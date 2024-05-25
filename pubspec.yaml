@@ -1,0 +1,30 @@
+name: anshin
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  just_audio: ^0.9.38
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/design/img/
+  fonts:
+    - family: WixDisplay
+      fonts:
+        - asset: lib/design/fonts/WixDisplay.ttf
